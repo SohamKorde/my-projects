@@ -1,0 +1,12 @@
+1 - no duplicate rows found 
+2 - no blank rows found
+3 - no extra blank spaces found
+4 - all words are in proper cases
+5 - no negative values found
+6 - replaced Driver id NA values with a blank
+7 - seperate the RequestTimestamp into RequestDate and RequestTime and deleted RequestTimestamp column
+8 - seperate the DropTimestamp into DropDate and DropTime and deleted DropTimestamp column
+9 - added a columns of RequestDay and DropDay to extract the weekday
+10 - replaced 00 january 1900 with blanks in DropDate column, 00:00:00 with blank in DropTime column, Cancelled or rejected day with blank in DropDay
+11 - added a column as RequestHour and DropHour to extract exact Hour from RequestTime and DropTime & added a column of RequestTimeSlot to denote Time Slot (eg. morning, night)
+
